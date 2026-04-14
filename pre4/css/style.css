@@ -4,8 +4,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f9f7f2; /* Soft cream background */
-    color: #2c3e50; /* Deep blue-grey text */
+    background-color: #fdfcf0; /* Warm paper-like background */
+    color: #3e2723; /* Dark brown text */
     line-height: 1.6;
 }
 
@@ -30,7 +30,7 @@ img {
 /* Header */
 header {
     background-color: #fff;
-    box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
     position: fixed;
     width: 100%;
     top: 0;
@@ -45,10 +45,10 @@ header .container {
 }
 
 .logo {
-    font-family: 'Playfair Display', serif;
-    font-size: 2em;
+    font-family: 'Lora', serif;
+    font-size: 1.8em;
     font-weight: 700;
-    color: #003399; /* Portuguese Blue */
+    color: #b71c1c; /* Deep red */
     letter-spacing: 1px;
 }
 
@@ -65,14 +65,14 @@ header .container {
 
 .nav-links a {
     font-weight: 600;
-    color: #34495e;
+    color: #5d4037;
     transition: color 0.3s ease;
     text-transform: uppercase;
     font-size: 0.9em;
 }
 
 .nav-links a:hover {
-    color: #003399;
+    color: #b71c1c;
 }
 
 /* Hero Section */
@@ -89,14 +89,14 @@ header .container {
 }
 
 .hero h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 4.5em;
+    font-family: 'Lora', serif;
+    font-size: 5em;
     margin-bottom: 20px;
     text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
 }
 
 .hero p {
-    font-size: 1.5em;
+    font-size: 1.6em;
     margin-bottom: 40px;
     max-width: 800px;
     margin: 0 auto 40px;
@@ -104,7 +104,7 @@ header .container {
 }
 
 .btn {
-    background-color: #003399;
+    background-color: #b71c1c;
     color: #fff;
     padding: 18px 50px;
     border-radius: 4px;
@@ -118,7 +118,7 @@ header .container {
 }
 
 .btn:hover {
-    background-color: #002266;
+    background-color: #d32f2f;
     transform: translateY(-3px);
 }
 
@@ -139,16 +139,16 @@ header .container {
 }
 
 .about-text h2 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lora', serif;
     font-size: 3em;
-    color: #003399;
+    color: #b71c1c;
     margin-bottom: 30px;
 }
 
 .about-text p {
     margin-bottom: 25px;
     font-size: 1.15em;
-    color: #34495e;
+    color: #5d4037;
 }
 
 .about-image {
@@ -157,21 +157,21 @@ header .container {
 
 .about-image img {
     border-radius: 8px;
-    box-shadow: 0 25px 50px rgba(0,0,0,0.1);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.15);
 }
 
 /* Specialties Section */
 .specialties {
     padding: 100px 0;
-    background-color: #f9f7f2;
+    background-color: #fdfcf0;
     text-align: center;
 }
 
 .specialties h2 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lora', serif;
     font-size: 3em;
     margin-bottom: 60px;
-    color: #003399;
+    color: #b71c1c;
 }
 
 .specialties-grid {
@@ -198,14 +198,14 @@ header .container {
 }
 
 .specialty-card h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lora', serif;
     font-size: 2em;
     margin-bottom: 15px;
-    color: #2c3e50;
+    color: #3e2723;
 }
 
 .specialty-card p {
-    color: #7f8c8d;
+    color: #795548;
     font-size: 1.1em;
 }
 
@@ -217,10 +217,10 @@ header .container {
 }
 
 .contact h2 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lora', serif;
     font-size: 3em;
     margin-bottom: 60px;
-    color: #003399;
+    color: #b71c1c;
 }
 
 .contact form {
@@ -235,7 +235,7 @@ header .container {
     margin-bottom: 25px;
     border: 1px solid #e0e0e0;
     background-color: #fafafa;
-    color: #2c3e50;
+    color: #3e2723;
     border-radius: 4px;
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
@@ -243,7 +243,7 @@ header .container {
 
 .contact input:focus, .contact textarea:focus {
     outline: none;
-    border-color: #003399;
+    border-color: #b71c1c;
 }
 
 .contact .btn {
@@ -252,8 +252,8 @@ header .container {
 
 /* Footer */
 footer {
-    background-color: #2c3e50;
-    color: #ecf0f1;
+    background-color: #3e2723;
+    color: #d7ccc8;
     text-align: center;
     padding: 80px 0;
 }
@@ -263,7 +263,7 @@ footer {
 }
 
 .footer-links a {
-    color: #003399;
+    color: #ffab91;
     margin: 0 20px;
     font-weight: 600;
 }
